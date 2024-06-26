@@ -8,11 +8,9 @@ from langchain_community.tools import DuckDuckGoSearchRun
 # Page configuration
 st.set_page_config(page_title="Research Assistant", page_icon=":mag:", layout="wide")
 
-# Load environment variables
-load_dotenv()
-os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
-GROQ_API_KEY = os.environ.get('GROQ_API_KEY')
+# Accessing the environment variables
+LANGCHAIN_API_KEY = st.secrets["LANGCHAIN_API_KEY"]
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 # Define the prompt template
 generate_web_search_prompt_template = ChatPromptTemplate.from_messages([
