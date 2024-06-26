@@ -2,7 +2,8 @@
 
 Building a LLM Chatbot Agent for Book Recommendation based on user query.
 
-### [working link of Book Recommendation Agent Application, deployed on Streamlit cloud]()
+### [working link of Book Recommendation Agent Application, deployed on Streamlit cloud](https://book-recommendation-llama-3.streamlit.app/)
+
 ### Video Demo 
 
 https://github.com/Abhishekvidhate/Book-Recommendation-LLAMA-3/assets/120262589/2c9d394f-0371-4a47-a615-4800a5098ab2
