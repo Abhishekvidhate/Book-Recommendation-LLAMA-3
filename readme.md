@@ -2,6 +2,14 @@
 
 Building a LLM Chatbot Agent for Book Recommendation based on user query.
 
+### [working link of Book Recommendation Agent Application, deployed on Streamlit cloud]()
+### Video Demo 
+
+https://github.com/Abhishekvidhate/Book-Recommendation-LLAMA-3/assets/120262589/2c9d394f-0371-4a47-a615-4800a5098ab2
+
+
+
+
 Agent will prompt user to share their thoughts or ideas on which they want to gain more
 knowledge i.e read more on that topic, so Agent will take ***user_query*** then LLM will process query
 for later to provide ***web search queries*** based on inital user_query.
